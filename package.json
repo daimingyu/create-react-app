@@ -1,0 +1,22 @@
+{
+  "name": "create-react-app",
+  "version": "1.0.0",
+  "description": "create-react-app",
+  "type": "module",
+  "bin": {
+    "create-react-app": "src/bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.planetmeican.com"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.2.16"
+  }
+}
